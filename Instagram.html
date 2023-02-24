@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <di class="pic">
+            <i class="fas fa-user"></i>
+        </di>
+        <h2 class="title">Login</h2>
+        <form class="form" method="POST">
+            <label for="username">username</label>
+            <input type="text" id="username" class="input" autocomplete="off" placeholder="abhi.chavhan" />
+            <label for="password">Password</label>
+            <input type="text" id="password" class="input" autocomplete="off" placeholder="password" />
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <style>
+        container {
+            max-width: 400;
+            width: 100%;
+            background: #fff;
+            border-radius: 20px;
+            position: relative;
+        }
+        pic{
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            font-size: 25px;
+            text-align: center;
+            line-height: 60px;
+            border: 10px solid #4d3278;
+            transform: translate(-50%, -50%);
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        title{
+            text-align: center;
+            margin-top: 30px;
+
+        }
+        label, link, button{
+            margin-top: 20px;
+        }
+        label{
+            margin-top: 20px;
+            font-size: 20px;
+            color: rgb(77, 77, 77);
+            font-weight: 600;
+        }
+        input{
+            padding: 8px;
+            outline: none;
+            border: 0;
+            background: #eee;
+        }
+        button{
+            background: linear-gradient(to right, #9d50bb, #6e48aa);
+            padding: 8px;
+            border: 0;
+            color: #fff;
+            font-size: 15px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+    </style>
+
+
+</body>
+</html>
